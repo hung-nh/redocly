@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  redoc-ewallet:
+    image: redocly/redoc
+    container_name: redoc-e-wallet
+    build:
+      context: .
+    ports:
+      - 8011:80
+    environment:
+      SPEC_URL=http://localhost:3000/api/docs-json:
+

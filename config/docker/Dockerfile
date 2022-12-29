@@ -25,9 +25,10 @@ RUN npm run bundle:standalone
 FROM nginx:alpine
 
 ENV PAGE_TITLE="ReDoc"
+ENV BROWSERSLIST_DISABLE_CACHE=1
 ENV PAGE_FAVICON="favicon.png"
 ENV BASE_PATH=
-ENV SPEC_URL="http://petstore.swagger.io/v2/swagger.json"
+ENV SPEC_URL="http://localhost:3000/api/admin-json"
 ENV PORT=80
 ENV REDOC_OPTIONS=
 

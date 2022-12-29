@@ -158,10 +158,12 @@
     "prismjs": "^1.27.0",
     "prop-types": "^15.7.2",
     "react-tabs": "^3.2.2",
+    "redoc": "^2.0.0",
     "slugify": "~1.4.7",
     "stickyfill": "^1.1.1",
     "style-loader": "^3.3.1",
     "swagger2openapi": "^7.0.6",
+    "update-notifier": "^6.0.2",
     "url-template": "^2.0.8"
   },
   "size-limit": [
